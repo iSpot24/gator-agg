@@ -15,4 +15,4 @@ SELECT * FROM users;
 SELECT * FROM users WHERE name = $1 LIMIT 1;
 
 -- name: DeleteUsers :exec
-DELETE from users;
+TRUNCATE users RESTART IDENTITY CASCADE;
