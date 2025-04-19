@@ -1,6 +1,6 @@
 ## gator-agg
 
-RSS feed aggreGator🐊 
+RSS feed aggreGator🐊
 
 A command-line tool for working with your PostgreSQL-backed Go project. 
 
@@ -41,7 +41,7 @@ You can also pass a custom config path using the --config flag.
 
 🧪 Running the CLI
 Available commands:
- - Login existing users
+ - Login for existing users
     ```bash
     gator login username 
     ```
@@ -85,3 +85,20 @@ Available commands:
     ```bash
     gator browse limit
     ```
+
+✨ Possible Improvements
+
+🧹 Add sorting and filtering to the browse command
+
+📄 Add pagination to handle large result sets
+
+🤹 Add concurrency to the agg command to fetch posts more frequently and efficiently
+
+🔤 Add a search command with fuzzy matching to find posts more easily
+
+🧭 Add a TUI (Text User Interface) to browse and view posts inside your terminal — or open them in your browser with a click!
+
+🔐 Add an HTTP API with authentication & authorization so others can interact with the service remotely
+
+👷 Service manager to keep the agg command running in the background and auto-restart it on failure
+
