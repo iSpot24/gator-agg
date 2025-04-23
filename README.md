@@ -11,7 +11,7 @@ Aggregate posts from followed RSS feeds at a time frequency indefinetly.
 Before you begin, make sure you have the following installed:
 
 - [Go](https://golang.org/doc/install) (version 1.22 or later)
-- [PostgreSQL](https://www.postgresql.org/download/)
+- [PostgreSQL](https://www.postgresql.org/download/) (version 17.4 or later)
 
 Make sure your PostgreSQL server is running and accessible.
 
