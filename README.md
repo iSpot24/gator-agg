@@ -1,4 +1,4 @@
-## gator-agg
+# gator-agg
 
 RSS feed aggreGator🐊
 
@@ -10,7 +10,7 @@ Aggregate posts from followed RSS feeds at a time frequency indefinetly.
 
 Before you begin, make sure you have the following installed:
 
-- [Go](https://golang.org/doc/install) (version 1.18 or later)
+- [Go](https://golang.org/doc/install) (version 1.22 or later)
 - [PostgreSQL](https://www.postgresql.org/download/)
 
 Make sure your PostgreSQL server is running and accessible.
@@ -20,24 +20,8 @@ Make sure your PostgreSQL server is running and accessible.
 Install the `gator` CLI tool using `go install`:
 
 ```bash
-go install github.com/yourusername/gator/cmd/gator@latest
+go install github.com/iSpot24/gator-agg
 ```
-
-⚙️ Configuration
-Before running gator, you'll need a configuration file. Create a gator.yaml file in the root of your project directory:
-
-```yaml
-database:
-  host: localhost
-  port: 5432
-  user: postgres
-  password: your_password
-  dbname: your_database
-
-output: ./generated
-```
-
-You can also pass a custom config path using the --config flag.
 
 🧪 Running the CLI
 Available commands:
